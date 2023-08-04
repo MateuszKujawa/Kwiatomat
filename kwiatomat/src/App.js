@@ -1,12 +1,21 @@
 import './App.css';
-import Header from './components/Header.js';
+import Nav from './components/Nav.jsx';
+import Main from './components/Main.js';
+import HowItWorks from './components/HowItWorks';
+import PayMethods from './components/PayMethods';
+import NeedHelp from './components/NeedHelp';
+import Footer from './components/Footer';
 
 function App() {
   return(
     <>
-      <Header />
-    </> 
-
+      <Nav />
+      <Main />
+      <HowItWorks />
+      <PayMethods />
+      <NeedHelp />
+      <Footer />
+    </>
   );
 }
 
