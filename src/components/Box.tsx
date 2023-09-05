@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 
 function Box() {
+
   return (
     <>
       <div className="flex items-center justify-center grid grid-rows-2 grid-flow-col gap-6 mt-28">
@@ -9,7 +10,7 @@ function Box() {
             <h3 className="text-gray-600 text-center text-5xl font-bold mb-5">
               1
             </h3>
-            <p className="text-gray-600 text-center text-3xl">29,99 zł</p>
+            <p className="text-gray-600 text-center text-3xl">27,99 zł</p>
           </div>
         </a>
 
@@ -52,5 +53,6 @@ function Box() {
     </>
   );
 }
+
 
 export default Box;
