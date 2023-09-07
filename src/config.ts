@@ -1,6 +1,6 @@
 const config = {
-  strapiUrl: 'http://localhost:1337',
-  apiUrl: 'http://localhost:8080',
+  strapiUrl: 'https://janek-strapi.pkstrz.tech/',
+  apiUrl: 'https://janek-api.pkstrz.tech/',
 }
 
 export default config
