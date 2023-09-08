@@ -9,7 +9,7 @@ function Main() {
   useEffect(() => {
     // fetch data from API
     const fetchData = async () => {
-      const data = await fetch(`${config.strapiUrl}/api/boxes`)
+      const data = await fetch(`${config.strapiUrl}/api/boxes?filters[available][$eq]=1`)
         .then((res) => res.json())
         .then((res) => {
           setLoading(false);
