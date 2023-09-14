@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "./App.css";
 import Nav from "./components/Nav";
 import Main from "./components/Main";
@@ -11,10 +11,12 @@ function App() {
   return (
     <>
       <Nav />
-      <Main />
-      <HowItWorks />
-      <PayMethods />
-      <NeedHelp />
+      <div className="flex flex-col gap-10">
+        <Main />
+        <HowItWorks />
+        <PayMethods />
+        <NeedHelp />
+      </div>
       <Footer />
     </>
   );
